@@ -1,0 +1,20 @@
+{
+  "name": "ip-country-api-gateway",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0",
+    "node-cache": "^5.1.2",
+    "rate-limiter-flexible": "^5.0.3"
+  }
+}
